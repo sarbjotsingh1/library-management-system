@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); /*Font for our Document */
+
+/* This will be applicalbe to whole html */
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+/* css For Homepage */
+#containerHome{
+
+
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: content-box;
+    position: relative;
+    overflow-y: hidden;
+    display: block;
+   
+}
+
+#vectorBlue{
+    
+    position: absolute;
+    width: 40%;
+   
+}
+#vector1{
+    position: absolute;
+    width: 50%;
+   
+}
+#vector2{
+
+    position: absolute;
+    height: 60%;      
+    right: 5%;
+    top: 20%;
+
+}
+
+
+
+
+#website_name{
+
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+
+.title_home{
+
+    position: absolute;
+    width: 30%;
+    text-align: left;
+    color: rgb(0, 0, 0);
+
+    top: 10%;
+    left: 5%;
+    font-size: 60px;
+
+
+}
+
+/* Reveal to access other tabs */
+
+#revealButton{
+
+    position: absolute;
+    width: 200px;
+    
+    font-size: 16px;
+    text-align: center;
+    padding: 16px;
+    background-color: #009DAC;
+    bottom: 0%;
+    left: 40%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#insertAndfetchReveal{
+
+    display: none;
+    position: absolute;
+    background-color: #ffffff9a;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.insAndfetDiv{
+
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    background-color: #009DAC;
+    border-radius: 24px;
+    
+}
+
+#fetchDataReveal{
+
+    position: absolute;
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+    padding: 16px;
+    background-color: #ffffff;
+    bottom: 10%;
+    left: 25%;
+    border-radius: 8px;
+    transition: ease-in .5s;
+    box-shadow: inset 0 0 0 0 rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+#insertDataReveal{
+    position: absolute;
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+    padding: 16px;
+    background-color: #ffffff;
+    bottom: 35%;
+    left: 25%;
+    color: black;
+    border-radius: 8px;
+    transition: ease-in .5s;
+    box-shadow: inset 0 0 0 0 rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#insertDataReveal:hover{
+
+    box-shadow: inset 190px 0 0 0 #000000;
+    color: white;
+}
+
+#fetchDataReveal:hover{
+
+    box-shadow: inset 190px 0 0 0 #000000;
+    color: white;
+}
+
+
+
+/* Sarbjot 's Section */
+
+#containerInsertRecord{
+
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: content-box;
+
+    background-color: aquamarine;
+
+}
+
+#containerfetchRecord{
+    
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: content-box;
+    position: relative;
+
+    background-color: antiquewhite;
+
+}
